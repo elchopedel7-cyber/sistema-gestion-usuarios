@@ -1,0 +1,36 @@
+# ============================================
+# Archivos que NO se suben al repositorio
+# ============================================
+
+# --- Entornos virtuales ---
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+
+# --- Node.js ---
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# --- Variables de entorno ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Respaldos ---
+sgu-frontend_original/
